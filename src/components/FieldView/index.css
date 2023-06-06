@@ -1,0 +1,6 @@
+.container {
+  padding: 8px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background: var(--wordle-primary-color);
+}

@@ -1,0 +1,25 @@
+:root {
+	/* colors */
+	--wordle-background-color: #E8DDBD;
+	--wordle-primary-color: #BB553F;
+	--wordle-secondary-color: #D16E56;
+	--wordle-primary-color-text: #FFFFFF;
+	--wordle-secondary-color-text: #FFFFFF;
+
+	/* intention colors */
+	--wordle-warning-color: #b59f3b;
+	--wordle-success-color: #538d4e;
+	--wordle-neutral-color: #333333;
+
+	/* intention text colors */
+	--wordle-warning-color-text: #FFFFFF;
+	--wordle-success-color-text: #FFFFFF;
+	--wordle-neutral-color-text: #FFFFFF;
+
+	/* typography */
+	--wordle-font-height: 1.2;
+	--wordle-font-family: monospace;
+
+	/* dimensions */
+	--wordle-field-max-width: 404px;
+}

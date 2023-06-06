@@ -1,0 +1,36 @@
+.container {
+	width: 1.75em;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	user-select: none;
+	cursor: pointer;
+	padding: 16px 0;
+	border-radius: 4px;
+	color: var(--wordle-primary-color-text);
+	background: var(--wordle-primary-color);
+	font-family: monospace;
+	font-weight: bold;
+	text-transform: capitalize;
+	transition: background 0ms, color 0ms;
+	transition-delay: 1500ms;
+}
+
+.container:hover {
+	opacity: 0.9;
+}
+
+.neutral {
+  color: var(--wordle-neutral-color-text);
+  background: var(--wordle-neutral-color);
+}
+
+.success {
+  color: var(--wordle-success-color-text);
+  background: var(--wordle-success-color);
+}
+
+.warning {
+  color: var(--wordle-warning-color-text);
+  background: var(--wordle-warning-color);
+}

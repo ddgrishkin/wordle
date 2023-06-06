@@ -1,0 +1,10 @@
+# files
+webpack.config.js
+development.html
+tsconfig.json
+
+# folders
+/node_modules/
+/typedefs/
+/webpack/
+/src/

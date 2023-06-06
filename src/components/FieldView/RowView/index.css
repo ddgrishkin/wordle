@@ -1,0 +1,48 @@
+.row {
+  width: 100%;
+  display: flex;
+}
+
+.cell {
+  width: 20%;
+  padding: 0.125em;
+  box-sizing: border-box;
+}
+
+.inner {
+  width: 100%;
+  position: relative;
+  padding-top: 100%;
+}
+
+.value {
+  border-radius: 4px;
+  background: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.error {
+  animation: shake 250ms ease;
+}
+
+@keyframes shake {
+	0% {
+		transform: translateX(0);
+	}
+	25% {
+		transform: translateX(-4px);
+	}
+	50% {
+		transform: translateX(4px);
+	}
+	75% {
+		transform: translateX(-2px);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}

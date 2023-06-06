@@ -1,0 +1,19 @@
+.button {
+	position: relative;
+	background: none;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	padding: 0;
+	margin: 0;
+	font-size: inherit;
+}
+
+.input {
+	top: 0;
+	width: 0;
+	height: 0;
+	margin: 0;
+	position: absolute;
+	visibility: hidden;
+}

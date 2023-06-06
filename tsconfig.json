@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "jsx": "react",
+    "sourceMap": false,
+    "target": "ES5",
+    "module": "CommonJS",
+    "strictNullChecks": true,
+    // "exactOptionalPropertyTypes": true,
+    "moduleResolution": "Node16",
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+  },
+	"include": ["./typedefs/global.d.ts", "./src/**/*"]
+}
